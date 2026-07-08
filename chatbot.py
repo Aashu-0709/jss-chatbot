@@ -4,7 +4,7 @@ from groq import Groq
 import base64
 
 # ---- API ----
-client = Groq(api_key="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")
+client = Groq(api_key=st.secrets["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"])
 
 # ---- KNOWLEDGE BASE ----
 COLLEGE_INFO = """
